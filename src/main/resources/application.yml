@@ -1,7 +1,10 @@
 server:
   port: 9901
 
+
 spring:
+  profiles:
+    active: local
   h2:
     console:
       enabled: true
@@ -10,3 +13,8 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password:
+    data: classpath:data-h2.sql
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true

@@ -1,6 +1,6 @@
 package com.study.webservice.service;
 
-import com.study.webservice.domain.posts.PostSaveRequestDTO;
+import com.study.webservice.domain.posts.dto.PostSaveRequestDTO;
 import com.study.webservice.domain.posts.Posts;
 import com.study.webservice.domain.posts.PostsRepository;
 import org.junit.After;
